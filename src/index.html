@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/advanced-wd/profile-manager/dist/output.css"
+        />
+        <title>Home</title>
+    </head>
+    <body class="bg-[#151522] min-h-[100vh] flex flex-col">
+        <main class="flex-grow flex flex-col justify-center items-center p-5">
+            <h1
+                class="text-[#FE6639] md:text-3xl lg:text-4xl text-2xl font-fira-code"
+            >
+                My Profile
+            </h1>
+
+            <div
+                class="profile-section md:w-2/3 lg:w-1/2 lg:max-w-2xl w-full p-10 bg-[#16151C] mt-4 rounded-md shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] flex flex-col items-center justify-center"
+            >
+                <h1
+                    class="loading-component text-[#FE6639] md:text-2xl lg:text-3xl text-xl font-fira-code"
+                >
+                    Loading...
+                </h1>
+                <div
+                    class="logout-section mt-8 w-full flex flex-col items-center justify-center"
+                >
+                    <button
+                        class="logout-btn h-11 lg:w-1/2 md:w-2/3 w-full bg-[#FE6639] rounded-md lg:text-xl md:text-lg text-base font-fira-code text-[#16151C] font-semibold"
+                    >
+                        Logout
+                    </button>
+
+                    <p
+                        class="text-[#E1A2A1] font-fira-code mt-2 text-center flex justify-center items-center"
+                    >
+                        © 2025 Exponents - v0.0.1 - beta
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

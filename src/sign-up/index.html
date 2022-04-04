@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/advanced-wd/profile-manager/dist/output.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+        />
+        <title>Sign-Up</title>
+    </head>
+    <body class="bg-[#151522] min-h-[100vh] flex flex-col">
+        <main class="flex-grow flex flex-col justify-center items-center p-5">
+            <h1
+                class="text-[#FE6639] md:text-3xl lg:text-4xl text-2xl font-fira-code"
+            >
+                SIGN UP
+            </h1>
+
+            <div
+                class="md:w-2/3 lg:w-1/2 lg:max-w-2xl w-full p-10 bg-[#16151C] mt-4 rounded-md shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+            >
+                <h4
+                    class="text-[#FE6639] px-2 lg:text-xl md:text-lg text-base font-fira-code"
+                >
+                    Name
+                </h4>
+
+                <input
+                    type="text"
+                    class="user-name w-full bg-[#E1A2A1] lg:py-3 py-2 mt-2 outline-none px-3 font-fira-code rounded-md text-[#191927] placeholder:text-[#7B7D7F]"
+                    placeholder="Enter your name"
+                    value=""
+                />
+
+
+                <h4
+                    class="text-[#FE6639] px-2 lg:text-xl md:text-lg text-base font-fira-code mt-4"
+                >
+                    Email
+                </h4>
+
+                <input
+                    type="email"
+                    class="user-email w-full bg-[#E1A2A1] lg:py-3 py-2 mt-2 outline-none px-3 font-fira-code rounded-md text-[#191927] placeholder:text-[#7B7D7F]"
+                    placeholder="Enter your email"
+                    value=""
+                />
+
+                <h4
+                    class="text-[#FE6639] px-2 lg:text-xl md:text-lg text-base font-fira-code mt-4"
+                >
+                    Password
+                </h4>
+
+                <input
+                    type="password"
+                    class="user-password w-full bg-[#E1A2A1] lg:py-3 py-2 mt-2 outline-none px-3 font-fira-code rounded-md text-[#191927] placeholder:text-[#7B7D7F]"
+                    placeholder="Enter your password"
+                    value=""
+                />
+
+                <h4
+                    class="text-[#FE6639] px-2 lg:text-xl md:text-lg text-base font-fira-code mt-4"
+                >
+                    Re-Enter Password
+                </h4>
+
+                <input
+                    type="password"
+                    class="verify-password w-full bg-[#E1A2A1] lg:py-3 py-2 mt-2 outline-none px-3 font-fira-code rounded-md text-[#191927] placeholder:text-[#7B7D7F]"
+                    placeholder="Re-Enter your password"
+                    value=""
+                />
+
+                <div
+                    class="mt-8 w-full flex flex-col items-center justify-center"
+                >
+                    <button
+                        class="sign-up-btn h-11 lg:w-1/2 md:w-2/3 w-full bg-[#FE6639] rounded-md lg:text-xl md:text-lg text-base font-fira-code text-[#16151C] font-semibold"
+                    >
+                        Sign Up
+                    </button>
+
+                    <p class="text-[#E1A2A1] font-fira-code mt-2">
+                        Already an user? 
+
+                        <a href="/advanced-wd/profile-manager/src/login" class="ml-2 text-[#FE6639] underline">
+                            Sign In Now
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/toastify-js"
+        ></script>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
